@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background: linear-gradient( to left, #fcced5 , #f8a778);
+            }
+        textarea{
+                resize: none;
+                margin-left:50px;
+                margin-top: 10px;
+            }
+        input{
+            font-family: "Roboto Slab", sans-serif;
+            width: 200px;
+            height: 25px;
+            margin-left: 50px;
+            margin-top: 15px;
+            
+        }
+        .head{
+            width: 450px;
+            height: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            border-radius: 8px;
+            align-content: center;
+            box-shadow:0 0 15px 2px black;
+            background-color: rgb(209, 207, 207);
+            border: none;
+        }
+        input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            h2{
+                font-weight: bolder;
+                text-align: center;
+                font-family: 'Inconsolata', monospace;
+
+            }
+            h1{
+                font-weight: bolder;
+                text-align: center;
+                font-family: 'Inconsolata', monospace;
+                text-decoration: underline;
+                
+            }
+            .btn{
+                width: 100px;
+                height: 25px;
+                background-color: #4CAF50;
+            }
+            .btn:hover{
+                background-color: #4CAF50;
+                transform: scale(1.3) rotate(4deg);
+                transition: 0.5s;
+
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="head">
+        <h1>Contact Us</h1>
+        <h2>Enter your details</h2>
+        <form>
+            
+            <input type="text" name="na" placeholder="Enter Your name" required><br>
+            
+            <input type="number" name="cont" placeholder="Enter your Contact no" required><br>
+            
+            <input type="email" name="mail" placeholder="Enter your Email address" required><br>
+            <textarea name="message" id="message" cols="40" rows="7" placeholder="Your message or queries"></textarea><br>
+            <a href="home.html">
+                <input type="button" class="btn" value="Back"></a>
+            <input type="button" class="btn" value="Submit">
+        </form>
+    </div>
+    </body>
+</html>

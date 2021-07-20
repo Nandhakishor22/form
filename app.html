@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                height: 100%;
+                margin: 0%;
+                background-image: url(https://i.ibb.co/KmkCkcT/changbok-ko-F8t2-VGn-I47-I-unsplash.jpg);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+            
+            
+            
+            .for{
+                margin-left: auto;
+                margin-right: auto;
+                width: 600px;
+                height: 820px;
+                background-color: white;
+                background: rgba(255, 255, 255, 0.692);
+                box-shadow: 0 0 12px 4px rgb(63, 61, 61);
+                
+            }
+            h1{
+                text-align: center;
+                background-color: green;
+                height: 40px;
+                
+                
+               
+
+            }
+            input{
+                width: 80%;
+                border-radius: 4px;
+                margin-left: 30px;
+                margin-top: 10px;
+                height: 25px;
+            }
+            .for label{
+                margin-top: 100px;
+                margin-left: 10px;
+                
+            }
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            input:hover{
+                border-color: #2196F3;
+            }
+            .bt{
+                height: 35px;
+                width: 50%;
+                margin-left: 150px;
+                background-color:#388E3C;
+                
+            }
+            .bt:hover{
+                border-color: #27812b;
+                transition: 0.5s;
+                transform: scale(.9);
+            }
+           
+	
+
+            
+    
+
+            
+        </style>
+
+    </head>
+    <body>
+        
+            <div class="for">
+            <h1>Course Registraion</h1>
+            <form>
+                <label for="name">Student Name</label><br>
+                <input type="text" name="name" placeholder="Student Name" required><br>
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" name="dob" required><br>
+                <label for="age">Age</label> <br>
+                <input type="number" name="age" placeholder="Age" min="16" max="40" required><br>
+                <label for="gen">Gender</label><br>
+                <input type="radio" id="mal" name="gen" value="Male" style="width: 20px; height: 15px;">
+                <label for="mal">Male</label>
+                <input type="radio" id="fem" name="gen" value="Female" style="width: 20px; height: 15px;">
+                <label for="fem">Female</label><br>
+                <label for="m1">10th Percentage</label><br>
+                <input type="number" name="m1" placeholder="10th Percentage" min="30" max="100" required><br>
+                <label for="m2">12th Percentage</label><br>
+                <input type="number" name="m2" placeholder="12th Percentage" min="30" max="100" required><br>
+                <label for="no">Contact no</label><br>
+                <input type="number" name="no" placeholder="Contact no" required><br>
+                <label for="email">Email(optional)</label><br>
+                <input type="email" name="email" placeholder="your email id"><br>
+                <label for="course">Choose Course:</label>
+                <select id="course" name="" style="width: 250px;"><br>
+                  <option value="">B.E. - Mechanical Engineering</option>
+                  <option value="saab">B.E. - Mechatronics Engineering</option>
+                  <option value="fiat">B.E. - Electrical and Electronics Engineeringt</option>
+                  <option value="audi">B.E. - Civil Engineering</option>
+                  <option value="audi">B.E. - Bio Medical Engineering</option>
+                  <option value="audi">B.E. - Information Technologyg</option>
+                </select><br>
+                <label for="ad">Address:</label><br>
+                <input type="text" name="ad" placeholder="Street address" ><br>
+                <input type="text" name="ad" placeholder="District"><br>
+                <input type="text" name="ad" placeholder="State"><br>
+                <input type="reset" class="bt" value="Reset">
+                <input type="submit" class="bt" value="Submit"><br> 
+                <a href="home.html">
+                    <input type="button" class="btn" value="Back" style="width: 100px; margin-left: 30px; background-color: #388E3C;"></a>
+
+                 
+                  
+                
+            
+        </form> 
+    </div>
+    
+    </body>
+</html>

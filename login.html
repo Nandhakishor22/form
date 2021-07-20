@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="viewport=device-width, initial-scale=1.0"></meta>
+        <style>
+            body{
+                background: linear-gradient( to left, #fcced5 , #f8a778);
+            }
+            .main{
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+                height: 320px;
+                width:300px;
+                box-shadow: 0 0 10px 1px black;
+                border-radius: 30px;
+                background-color: white ;
+            }
+            h1{
+                background-color: #388E3C;
+                border-radius: 30px 30px 0 0;
+                font-weight: lighter;
+                height: 40px;
+
+            }
+            label{
+                margin-left: 10px;
+                font-size: 20px;
+                font-family: 'Noto Sans SC', sans-serif;
+                font-weight: bold;
+                
+            }
+            input{
+                margin-left: 25px;
+                height: 30px;
+                margin-top: 10px;
+                width: 80%;
+                
+            }
+            p{  
+                text-align: center;
+            }
+            .btn{
+                position: relative;
+                margin-top: -10px;
+                margin-left: 50px;
+                background-color:#3ca0f1;
+                width: 70px;
+                border:none;
+                font-size: 15px;
+                
+            }
+            .btn:hover{
+                
+                background-color: #1380ec;
+                
+                
+            }
+            ::placeholder{
+                text-align: center;
+                font-size: 16px;
+            }
+            input:hover{
+                border-color: #2196F3;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="main">
+            <h1 align="center">Login</h1>
+            <form>
+                <label for="name">Username</label><br>
+                <input type="text" name="name" placeholder="Enter you username" required><br>
+                <label for="pwd" style=" position: relative; top: 5px;">Password</label><br>
+                <input type="password" name="pwd" placeholder="Enter password" required><br>
+                <p>New user?<a href="sign.html">Sign-up here</a></p><br>
+                <a href="home.html">
+                    <input type="button" class="btn" value="Back"></a>
+                <input type="submit" name="sub" class="btn" value="Login">
+
+            </form>
+        </div>
+        
+    </body>
+</html>
